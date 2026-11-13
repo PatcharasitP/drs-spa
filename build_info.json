@@ -1,0 +1,13 @@
+{
+ "site": "https://kmitlthailand.sharepoint.com/sites/Data",
+ "client": "94b044e5-f92f-4184-85c4-3b7bb604c890",
+ "sha256": {
+  "index.html": "fce535247f33efe0a2bb532015e25fbb7246e05b4a079c1c7ce885652e7750a4",
+  "drs_app.js": "c0c93b42fb2f60fdc485cff032457766da08b18042aa196b504df91eb0e4566d",
+  "drs_handlers.js": "b589abfee5246829a61c8172497600fd7f04c57d6ccad00f38b3a25c03e77d41",
+  "drs_schema.js": "9214867ca1b6a1432f2c2f19dca854cefe78bffe089a0d86a162e800e3ba4878",
+  "drs_xrm_sp.js": "9cd444edf671d069ab2a2636721af19943f1463d6912faf4675ef3a337b406e8",
+  "drs_spa_auth.js": "887c473ddec75e98184b1a37019cd482c1d3dc9c50f970d1e19aa7ddc56bf263",
+  "msal-browser.min.js": "b4be707a259089104135dcea65f9840867dc8d218c4af5bf9f45b6cf02d1b59b"
+ }
+}
