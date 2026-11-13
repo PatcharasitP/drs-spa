@@ -37,7 +37,7 @@
   const say = (t) => { const b = d.getElementById("drs-auth-msg"); if (b) b.textContent = t; };
   const pca = new root.msal.PublicClientApplication({
     auth: { clientId: client, authority: "https://login.microsoftonline.com/" + tenant, redirectUri: root.location.origin + root.location.pathname.replace(/index\.html$/i, "") },
-    cache: { cacheLocation: "localStorage" },
+    cache: { cacheLocation: "sessionStorage" }, // token หายเมื่อปิดแท็บ (ความเสี่ยงข้อ 1 ของพี่ปริม 11/11) ล็อกอินใหม่เงียบด้วย SSO ของ Microsoft
   });
   let account = null;
   async function getToken(force) {
